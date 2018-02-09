@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techbros.sachin.dooremedy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="25" />
+
+    <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Dooremedy"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.techbros.sachin.dooremedy.LoginActivity" />
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".HomeActivity" />
+
+        <activity
+            android:name="com.techbros.sachin.dooremedy.HomeActivity"
+            android:label="Search City" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable_city" />
+        </activity>
+        <activity android:name="com.techbros.sachin.dooremedy.RegisterActivity" />
+        <activity
+            android:name="com.techbros.sachin.dooremedy.ServiceActivity"
+            android:label="Select Service" />
+        <activity
+            android:name="com.techbros.sachin.dooremedy.EmployeeActivity"
+            android:label="Select" />
+        <activity android:name="com.techbros.sachin.dooremedy.ForgotPasswordActivity" />
+        <activity android:name="com.techbros.sachin.dooremedy.QueryActivity" />
+        <activity android:name="com.techbros.sachin.dooremedy.BookingConfirmationActivity" />
+        <activity
+            android:name="com.techbros.sachin.dooremedy.AccountActivity"
+            android:label="My Account" />
+        <activity android:name="com.techbros.sachin.dooremedy.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.techbros.sachin.dooremedy.AboutAppActivity" />
+
+        <service
+            android:name="com.android.tools.fd.runtime.InstantRunService"
+            android:exported="true" />
+    </application>
+
+</manifest>

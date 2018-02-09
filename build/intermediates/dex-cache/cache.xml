@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="G:\Dooremedy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="G:\Dooremedy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fe371b04b6f4e0b0f2cf314560a7c49a2d053f1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\Dooremedy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53789387a8be722b3d16da73d1eec8e33c7ca665">
+        <dex dex="G:\Dooremedy\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ae86fc51591668c32ad51448e233c7579e58fbea\classes.dex" />
+    </item>
+
+</items>

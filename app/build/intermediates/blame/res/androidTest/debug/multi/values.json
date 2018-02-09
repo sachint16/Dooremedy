@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Sachin\\.android\\build-cache\\aa356ab19377cb780f541c189b4b470f6b1eccc2\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "G:\\Dooremedy\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Sachin\\.android\\build-cache\\2297ff3c775ef781c7c11a60ecb2ab32026fa63e\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

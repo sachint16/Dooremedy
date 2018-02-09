@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.tosslife:foldingtabbar-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a634e28d637eb4e0ff62a48967246a2ebb33be97/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a634e28d637eb4e0ff62a48967246a2ebb33be97/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tosslife/foldingtabbar/1.0.0/ea6bfe350cd8a8f89cbabbb966f13c76666d55b3/foldingtabbar-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

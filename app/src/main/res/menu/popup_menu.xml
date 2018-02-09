@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/my_bookings"
+        android:showAsAction="ifRoom"
+        android:title="My Bookings" />
+
+    <item
+        android:id="@+id/faq"
+        android:title="FAQ" />
+
+    <item
+        android:id="@+id/call_us"
+        android:title="Call Us" />
+
+    <item
+        android:id="@+id/chat_with_us"
+        android:title="Chat with Us" />
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback" />
+
+</menu>

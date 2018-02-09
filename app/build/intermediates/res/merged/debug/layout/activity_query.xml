@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Enter Details :"
+            android:textAlignment="textStart"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/mobField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Enter Mobile No."
+            android:inputType="phone"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+        <EditText
+            android:id="@+id/addressField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Enter Address here"
+            android:inputType="textPostalAddress"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff" />
+
+
+        <Button
+            android:id="@+id/queryButton"
+            android:layout_width="190dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_border"
+            android:onClick="invokeLogin"
+            android:text="SUBMIT"
+            android:textColor="#FEFEFF" />
+    </LinearLayout>
+</RelativeLayout>

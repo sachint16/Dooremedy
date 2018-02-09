@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "G:\\Dooremedy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "G:\\Dooremedy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

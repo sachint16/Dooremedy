@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textAlignment="viewStart"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif"/>
+
+            <EditText
+                android:id="@+id/signupNameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Full Name"
+                android:textColor="#ffffff"
+                android:inputType="textPersonName"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/signupEmailField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Email"
+                android:textColor="#ffffff"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/signupMobileField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Mobile"
+                android:textColor="#ffffff"
+                android:inputType="phone"
+                android:textColorHint="#ffffff" />
+
+            <EditText
+                android:id="@+id/signupPasswordField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:textColor="#ffffff"
+                android:inputType="textPassword"
+                android:textColorHint="#ffffff" />
+
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_border"
+                android:text="SIGN UP"
+                android:textColor="#FEFEFF" />
+
+            <Button
+                android:id="@+id/slogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:text="Already have Account? Login here"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:onClick="invokeBackToLogin"/>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_menu.xml",
+        "source": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\src\\main\\res\\menu\\popup_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "C:\\Users\\Sachin\\AndroidStudioProjects\\Dooremedy\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "G:\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\popup_menu.xml",
+        "source": "G:\\Dooremedy\\app\\src\\main\\res\\menu\\popup_menu.xml"
+    },
+    {
+        "merged": "G:\\Dooremedy\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "G:\\Dooremedy\\app\\src\\main\\res\\menu\\main_menu.xml"
+    }
+]

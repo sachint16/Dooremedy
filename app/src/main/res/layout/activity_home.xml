@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#ECEFF1"
+android:orientation="vertical">
+
+
+
+
+    <!-- Pincode/Locality field-->
+<ImageView
+    android:id="@+id/homeImage"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:gravity="center">
+
+    <!--
+    <EditText
+        android:id="@+id/h_pincode"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/rounded_edittext2"
+        android:ems="10"
+        android:hint="Enter pincode"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#42000000" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/h_pincode"
+        android:layout_toEndOf="@+id/h_pincode"
+        android:background="@drawable/forward_arrow_button"
+        android:src="@drawable/ic_chevron_right" /> -->
+
+</ImageView>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="#9E9E9E" />
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+<!--
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:scrollbars="none">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp">
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="8dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_nearby"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_new_delhi"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_gurgaon"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_noida"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_ghaziabad"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_mumbai"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_jaipur"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_bangalore"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_chennai"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_hyderabad"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_kolkata"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_all_cities"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="0dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Nearby"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:text="New Delhi"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Gurgaon"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Noida"
+                    android:textAlignment="center"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Ghaziabad"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Mumbai"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Jaipur"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Bangalore"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Chennai"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Hyderabad"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Kolkata"
+                    android:textColor="#9E9E9E"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:text="All Cities"
+                    android:textColor="#9E9E9E"
+                    android:textSize="10sp" />
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView> -->
+</LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="#ECF0F1" />
+
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    <!--Floating action Button
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fltbtm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="20dp"
+        android:onClick="showPopup"
+        android:src="@drawable/ic_plus"
+        app:backgroundTint="#F44356" /> -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageOffer1"
+                android:layout_width="fill_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/offer_3"/>
+
+            <ImageView
+                android:id="@+id/imageOffer2"
+                android:layout_width="fill_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="145dp"
+                android:background="@drawable/offer_1"/>
+
+            <ImageView
+                android:id="@+id/imageOffer3"
+                android:layout_width="fill_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="360dp"
+                android:background="@drawable/offer_2"/>
+
+        </FrameLayout>
+
+    </ScrollView>
+</RelativeLayout>
+</LinearLayout>

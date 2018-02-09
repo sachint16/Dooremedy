@@ -1,0 +1,171 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:8:5-69
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:8:22-66
+application
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:10:5-57:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Sachin\.android\build-cache\b67207752bc322fc0b84bae9e0b19e6150efb9c7\output\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Sachin\.android\build-cache\1470a36923efba3ad0197cab14c21b9aaede206f\output\AndroidManifest.xml:9:5-20
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\Sachin\.android\build-cache\9089ea1c73b778cfb67d28d8cbbf8788e7f5dda2\output\AndroidManifest.xml:12:5-20
+MERGED from [com.github.tosslife:foldingtabbar:1.0.0] C:\Users\Sachin\.android\build-cache\a634e28d637eb4e0ff62a48967246a2ebb33be97\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Sachin\.android\build-cache\19da8ee1dbf98ba35a6a75f36dc6e19a16ab04ea\output\AndroidManifest.xml:9:5-20
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Sachin\.android\build-cache\42a4fb6ba51e898b135ad0b35b208b4de0085d01\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.2.0] C:\Users\Sachin\.android\build-cache\974e4255b707724fd517d34798c67410eda14692\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Sachin\.android\build-cache\04332a271b0ce7d189565b042a2cdd99d2d7397b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Sachin\.android\build-cache\730577c8016f561585b7e46cf09b56a15fc451de\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Sachin\.android\build-cache\e64e986f3f047fbc2d3d10388d2bef881fcfdea9\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Sachin\.android\build-cache\edd336d04fca91d6dcef438a0a1346fe8fa8a4ae\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Sachin\.android\build-cache\0bb2903af8293d875c1446c1b551d8d865a66e3a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Sachin\.android\build-cache\8c7557703b9aa206ac43458d7bd90c898ea8099a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Sachin\.android\build-cache\07f5706809bd16866dba72abafc2d73fd5c53e50\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Sachin\.android\build-cache\d078e0a11ec970ca86e11a9c67d86903735c5446\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Sachin\.android\build-cache\3bfb3e54200f9726251034e26f07d7424c4693a8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Sachin\.android\build-cache\15f78c8f7c48f6ea599a94685295e30c7d41d1d8\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:13:9-34
+		REJECTED from [com.github.tosslife:foldingtabbar:1.0.0] C:\Users\Sachin\.android\build-cache\a634e28d637eb4e0ff62a48967246a2ebb33be97\output\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:16:9-40
+	tools:replace
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:17:9-38
+activity#com.techbros.sachin.dooremedy.LoginActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:18:9-51
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:18:19-48
+meta-data#android.app.default_searchable
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:20:9-22:45
+	android:value
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:22:13-42
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:21:13-58
+activity#com.techbros.sachin.dooremedy.HomeActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:24:9-35:20
+	android:label
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:26:13-40
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:25:13-41
+intent-filter#android.intent.action.SEARCH+android.intent.action.VIEW
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:27:13-30:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:28:25-66
+action#android.intent.action.SEARCH
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:29:17-71
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:29:25-68
+meta-data#android.app.searchable
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:32:13-34:59
+	android:resource
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:34:17-56
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:33:17-54
+activity#com.techbros.sachin.dooremedy.RegisterActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:36:9-54
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:36:19-51
+activity#com.techbros.sachin.dooremedy.ServiceActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:37:9-39:46
+	android:label
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:39:13-43
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:38:13-44
+activity#com.techbros.sachin.dooremedy.EmployeeActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:40:9-42:38
+	android:label
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:42:13-35
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:41:13-45
+activity#com.techbros.sachin.dooremedy.ForgotPasswordActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:43:9-60
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:43:19-57
+activity#com.techbros.sachin.dooremedy.QueryActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:44:9-51
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:44:19-48
+activity#com.techbros.sachin.dooremedy.BookingConfirmationActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:45:9-65
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:45:19-62
+activity#com.techbros.sachin.dooremedy.AccountActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:46:9-48:42
+	android:label
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:48:13-39
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:47:13-44
+activity#com.techbros.sachin.dooremedy.MainActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:49:9-55:20
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:49:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:50:13-54:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:53:27-74
+activity#com.techbros.sachin.dooremedy.AboutAppActivity
+ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:56:9-63
+	android:name
+		ADDED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml:56:19-51
+uses-sdk
+INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\Sachin\.android\build-cache\b67207752bc322fc0b84bae9e0b19e6150efb9c7\output\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Sachin\.android\build-cache\1470a36923efba3ad0197cab14c21b9aaede206f\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.clans:fab:1.6.2] C:\Users\Sachin\.android\build-cache\9089ea1c73b778cfb67d28d8cbbf8788e7f5dda2\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.tosslife:foldingtabbar:1.0.0] C:\Users\Sachin\.android\build-cache\a634e28d637eb4e0ff62a48967246a2ebb33be97\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Sachin\.android\build-cache\19da8ee1dbf98ba35a6a75f36dc6e19a16ab04ea\output\AndroidManifest.xml:7:5-43
+MERGED from [com.miguelcatalan:materialsearchview:1.4.0] C:\Users\Sachin\.android\build-cache\42a4fb6ba51e898b135ad0b35b208b4de0085d01\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.2.0] C:\Users\Sachin\.android\build-cache\974e4255b707724fd517d34798c67410eda14692\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Sachin\.android\build-cache\04332a271b0ce7d189565b042a2cdd99d2d7397b\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Sachin\.android\build-cache\730577c8016f561585b7e46cf09b56a15fc451de\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Sachin\.android\build-cache\e64e986f3f047fbc2d3d10388d2bef881fcfdea9\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\Sachin\.android\build-cache\41097a166752b96308944c5f004daf4cdba6e21d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] C:\Users\Sachin\.android\build-cache\edd336d04fca91d6dcef438a0a1346fe8fa8a4ae\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Sachin\.android\build-cache\0bb2903af8293d875c1446c1b551d8d865a66e3a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Sachin\.android\build-cache\8c7557703b9aa206ac43458d7bd90c898ea8099a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Sachin\.android\build-cache\07f5706809bd16866dba72abafc2d73fd5c53e50\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Sachin\.android\build-cache\d078e0a11ec970ca86e11a9c67d86903735c5446\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Sachin\.android\build-cache\3bfb3e54200f9726251034e26f07d7424c4693a8\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Sachin\.android\build-cache\15f78c8f7c48f6ea599a94685295e30c7d41d1d8\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] C:\Users\Sachin\.android\build-cache\974e4255b707724fd517d34798c67410eda14692\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Sachin\AndroidStudioProjects\Dooremedy\app\src\main\AndroidManifest.xml
